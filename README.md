@@ -32,7 +32,7 @@ Este projeto implementa um sistema de detecção de movimento da mão usando Ope
 1. Conecte o relé ao Arduino e ajuste o código para corresponder à configuração do seu circuito.
 2. Execute o script Python:
    ```bash
-   python codigo_python.py
+   python main.py
    ```
 3. Uma janela de captura de vídeo será exibida, com um ponto verde indicando o ponto fixo.
 4. Quando a mão for detectada sobre o ponto fixo, o relé será ativado. Ao sair do ponto, o relé será desligado.
